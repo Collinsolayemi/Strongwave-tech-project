@@ -1,0 +1,41 @@
+{
+  "name": "madilas_market_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strongwayve-technology/madilas_market_BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strongwayve-technology/madilas_market_BE/issues"
+  },
+  "homepage": "https://github.com/Strongwayve-technology/madilas_market_BE#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.6.0",
+    "express-validator": "^6.14.2",
+    "googleapis": "^109.0.1",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "messagebird": "^3.8.1",
+    "mongoose": "^6.7.1",
+    "nodemailer": "^6.8.0",
+    "otp-generator": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
